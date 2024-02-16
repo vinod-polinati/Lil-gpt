@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Define Streamlit app title
-st.title("Chatbot with OpenAI")
+st.title("Lil-GPT")
 
 # User input for OpenAI API key
 api_key = st.text_input("Enter your OpenAI API Key:", type="password")
