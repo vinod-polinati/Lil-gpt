@@ -1,31 +1,44 @@
 # Lil-GPT
 
-This a basic llm done using OpenAI and deployed using Streamlit.
+This is a simple chatbot application built using Streamlit and the OpenAI API. It allows users to interact with a conversational AI model powered by OpenAI's GPT-3.5 Turbo model.
 
-## Table of Contents
+## Getting Started
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+### Prerequisites
 
-## Installation
+Before running the application, make sure you have the following installed:
 
-1. Clone the repository. 
-   bash 
-2. Install the required dependencies using `pip install -r requirements.txt`.
+- Python 3.9+
+- Streamlit
+- OpenAI Python Library
 
-## Usage
+### Installation
 
-1. Set up your OpenAI API key by following the instructions in the [API documentation](https://openai.com/docs/).
-2. Run the application using `streamlit run app.py`.
-3. Enter your OpenAI API key in the provided input field.
-4. Start interacting with the chatbot by entering text in the input field.
+1. Clone the repository:
 
-## Contributing
+```
+git clone https://github.com/vinod-polinati/Lil-gpt.git
+```
 
-Contributions are welcome! Please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
+2. Install the dependencies:
 
-## License
+```
+pip install -r requirements.txt
+```
 
-This project is licensed under the [MIT License](LICENSE).
+### Usage
+
+1. Run the Streamlit app:
+
+```
+streamlit run chatbot.py
+```
+
+2. Enter your OpenAI API Key in the provided text input field.
+3. Start chatting with the chatbot by typing your messages in the input field labeled "You:".
+4. The chatbot will respond with generated text based on your input.
+
+## Credits
+
+- [Streamlit](https://streamlit.io/)
+- [OpenAI](https://openai.com/)
