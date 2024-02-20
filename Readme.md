@@ -1,4 +1,4 @@
-# Lil-GPT
+# Lil-GPT (Under Maintenance)
 
 This is a simple chatbot application built using Streamlit and the OpenAI API. It allows users to interact with a conversational AI model powered by OpenAI's GPT-3.5 Turbo model.
 
